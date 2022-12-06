@@ -20,5 +20,5 @@ with open('C:\\Users\\gruen\\Documents\\CodeAdvent2022\\day06\\input.txt') as f:
     toc = time.perf_counter()
     print (f"4 individual chars found at pos {idx}!")
     print (f"Therefor the result is {idx + 4}")
-    print(f"Found solution in {toc - tic:0.4f} seconds")
+    print(f"Found solution in {toc - tic:0.4f} seconds") # 0.0012s
 
